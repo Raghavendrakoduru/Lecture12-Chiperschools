@@ -1,0 +1,25 @@
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   int i;
+//   for(i=0; ;i++){
+//     cout<<i<<" ";
+//     if(i>100){
+//       break;
+//     }
+//   }
+// }
+#include<iostream>
+using namespace std;
+int main(){
+  int i=0;
+  int count=0;
+  while(1<1000){
+    cout<<i<<" ";
+    i++;
+    count++;
+    if(count>99){
+      break;
+    }
+  }
+}
